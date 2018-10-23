@@ -3,6 +3,7 @@ C:\Work\Policies\PolicyApp\bin\PolicyApp.dll.config
 C:\Work\Policies\PolicyApp\bin\PolicyApp.dll
 C:\Work\Policies\PolicyApp\bin\PolicyApp.pdb
 C:\Work\Policies\PolicyApp\bin\Antlr3.Runtime.dll
+C:\Work\Policies\PolicyApp\bin\Dapper.dll
 C:\Work\Policies\PolicyApp\bin\EntityFramework.dll
 C:\Work\Policies\PolicyApp\bin\EntityFramework.SqlServer.dll
 C:\Work\Policies\PolicyApp\bin\Microsoft.AI.Agent.Intercept.dll
@@ -40,6 +41,7 @@ C:\Work\Policies\PolicyApp\bin\System.Web.WebPages.Deployment.dll
 C:\Work\Policies\PolicyApp\bin\System.Web.WebPages.dll
 C:\Work\Policies\PolicyApp\bin\System.Web.WebPages.Razor.dll
 C:\Work\Policies\PolicyApp\bin\WebGrease.dll
+C:\Work\Policies\PolicyApp\bin\Dapper.xml
 C:\Work\Policies\PolicyApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Work\Policies\PolicyApp\bin\Newtonsoft.Json.xml
 C:\Work\Policies\PolicyApp\bin\System.Net.Http.Formatting.xml
@@ -96,7 +98,6 @@ C:\Work\Policies\PolicyApp\bin\es\Microsoft.Owin.Security.Google.resources.dll
 C:\Work\Policies\PolicyApp\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
 C:\Work\Policies\PolicyApp\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
 C:\Work\Policies\PolicyApp\bin\es\System.Web.Http.Owin.resources.dll
-C:\Work\Policies\PolicyApp\obj\Debug\PolicyApp.csprojResolveAssemblyReference.cache
 C:\Work\Policies\PolicyApp\obj\Debug\PolicyApp.csproj.CoreCompileInputs.cache
 C:\Work\Policies\PolicyApp\obj\Debug\PolicyApp.dll
 C:\Work\Policies\PolicyApp\obj\Debug\PolicyApp.pdb
