@@ -60,7 +60,7 @@ namespace PolicyApp.Store
 				policy.P_TypeID,
 				policy.P_StartDate,
 				policy.P_Price,
-				policy.P_PeriodMonths,
+				policy.P_Period_Months,
 				policy.P_RiskType
 			};
 			using (var dbConnection = DbFactory.Create())

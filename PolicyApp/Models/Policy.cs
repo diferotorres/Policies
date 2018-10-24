@@ -13,7 +13,7 @@ namespace PolicyApp.Models
 		public Guid P_TypeID { get; set; }
 		public DateTime P_StartDate { get; set; }
 		public double P_Price { get; set; }
-		public Int16 P_PeriodMonths { get; set; }
+		public short P_Period_Months { get; set; }
 		public int P_RiskType { get; set; }
 		
 		public RiskCategory RiskType
