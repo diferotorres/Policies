@@ -258,7 +258,9 @@
     <Compile Include="Repository\ClientPolicyRepository.cs" />
     <Compile Include="Repository\IClientPolicyRepository.cs" />
     <Compile Include="Repository\IPolicyRepository.cs" />
+    <Compile Include="Repository\IPolicyTypeRepository.cs" />
     <Compile Include="Repository\PolicyRepository.cs" />
+    <Compile Include="Repository\PolicyTypeRepository.cs" />
     <Compile Include="Results\ChallengeResult.cs" />
     <Compile Include="Settings.cs" />
     <Compile Include="Startup.cs" />
@@ -267,7 +269,9 @@
     <Compile Include="Store\IClientPolicyStore.cs" />
     <Compile Include="Store\IClientStore.cs" />
     <Compile Include="Store\IPolicyStore.cs" />
+    <Compile Include="Store\IPolicyTypeStore.cs" />
     <Compile Include="Store\PolicyStore.cs" />
+    <Compile Include="Store\PolicyTypeStore.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Areas\HelpPage\HelpPage.css" />
