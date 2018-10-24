@@ -18,5 +18,19 @@ namespace PolicyApp.Store
 				dbConnection.Query<ClientPolicy>(sql, new { P_Id });
 			}
 		}
+		public ClientPolicy CreateClientPolicy(ClientPolicy clientPolicy)
+		{
+			const string sql = @"INSERT INTO dbo.TClientPolicy (P_ID,C_ID,PC_StartDate)
+								VALUES(@P_ID,@C_ID,@PC_StartDate)";
+			var queryParams = new {
+				clientPolicy.P_ID,
+				clientPolicy.C_ID,
+				clientPolicy.PC_StartDate
+			};
+			using (var dbConnection = DbFactory.Create())
+			{
+				return dbConnection.Query<ClientPolicy>(sql, queryParams).FirstOrDefault();
+			}
+		}
 	}
 }

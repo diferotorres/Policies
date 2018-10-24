@@ -17,7 +17,6 @@ namespace PolicyApp.Models
 		public int P_RiskType { get; set; }
 		public string C_Name { get; set; }
 		public string C_Identity { get; set; }
-		
 		public RiskCategory RiskType
 		{
 			get => (RiskCategory)this.P_RiskType;

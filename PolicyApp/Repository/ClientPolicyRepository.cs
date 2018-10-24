@@ -1,4 +1,5 @@
-﻿using PolicyApp.Store;
+﻿using PolicyApp.Models;
+using PolicyApp.Store;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +16,11 @@ namespace PolicyApp.Repository
 		public void DeleteClientPolicy(Guid P_Id)
 		{
 			_clientPolicyStore.DeleteClientPolicy(P_Id);
+		}
+		public ClientPolicy CreateClientPolicy(ClientPolicy clientPolicy)
+		{
+			var newClientPolicy = _clientPolicyStore.CreateClientPolicy(clientPolicy);
+			return newClientPolicy;
 		}
 		private readonly IClientPolicyStore _clientPolicyStore;
 	}
