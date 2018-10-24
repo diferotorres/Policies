@@ -254,11 +254,17 @@
     <Compile Include="Models\RiskCategory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\ApplicationOAuthProvider.cs" />
+    <Compile Include="Repository\ClientPolicyRepository.cs" />
+    <Compile Include="Repository\IClientPolicyRepository.cs" />
     <Compile Include="Repository\IPolicyRepository.cs" />
     <Compile Include="Repository\PolicyRepository.cs" />
     <Compile Include="Results\ChallengeResult.cs" />
     <Compile Include="Settings.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="Store\ClientPolicyStore.cs" />
+    <Compile Include="Store\ClientStore.cs" />
+    <Compile Include="Store\IClientPolicyStore.cs" />
+    <Compile Include="Store\IClientStore.cs" />
     <Compile Include="Store\IPolicyStore.cs" />
     <Compile Include="Store\PolicyStore.cs" />
   </ItemGroup>

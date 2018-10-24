@@ -15,6 +15,8 @@ namespace PolicyApp.Models
 		public double P_Price { get; set; }
 		public short P_Period_Months { get; set; }
 		public int P_RiskType { get; set; }
+		public string C_Name { get; set; }
+		public string C_Identity { get; set; }
 		
 		public RiskCategory RiskType
 		{
