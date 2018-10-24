@@ -101,3 +101,7 @@ C:\Work\Policies\PolicyApp\bin\es\System.Web.Http.Owin.resources.dll
 C:\Work\Policies\PolicyApp\obj\Debug\PolicyApp.csproj.CoreCompileInputs.cache
 C:\Work\Policies\PolicyApp\obj\Debug\PolicyApp.dll
 C:\Work\Policies\PolicyApp\obj\Debug\PolicyApp.pdb
+C:\Work\Policies\PolicyApp\obj\Debug\PolicyApp.csprojResolveAssemblyReference.cache
+C:\Work\Policies\PolicyApp\bin\System.Web.Cors.dll
+C:\Work\Policies\PolicyApp\bin\System.Web.Http.Cors.dll
+C:\Work\Policies\PolicyApp\bin\System.Web.Http.Cors.xml

@@ -20,10 +20,16 @@ namespace PolicyApp.Controllers
 		}
 
 		
-		public int Get(int policyId)
+		public Policy Get(Guid policyId)
 		{
-			//var policy = _policyRepository.GetPolicyById(policyId);
-			return 5;
+			var policy = _policyRepository.GetPolicyById(policyId);
+			return policy;
+		}
+
+		public Policy Post([FromBody] Policy policy)
+		{
+			var newPolicy = _policyRepository.CreatePolicy(policy);
+			return newPolicy;
 		}
 
 		private readonly IPolicyRepository _policyRepository = new PolicyRepository();

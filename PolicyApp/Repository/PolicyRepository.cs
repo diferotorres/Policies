@@ -22,6 +22,10 @@ namespace PolicyApp.Repository
 		{
 			return _policyStore.GetPolicyById(P_Id);
 		}
+		public Policy CreatePolicy(Policy policy)
+		{
+			return _policyStore.CreatePolicy(policy);
+		}
 		private readonly IPolicyStore _policyStore;
 	}
 }

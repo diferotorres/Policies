@@ -8,5 +8,6 @@ namespace PolicyApp.Repository
 	{
 		IEnumerable<Policy> GetAllPolicies();
 		Policy GetPolicyById(Guid P_Id);
+		Policy CreatePolicy(Policy policy);
 	}
 }

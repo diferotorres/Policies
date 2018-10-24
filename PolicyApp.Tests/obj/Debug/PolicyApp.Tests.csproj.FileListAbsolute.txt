@@ -80,3 +80,6 @@ C:\Work\Policies\PolicyApp.Tests\obj\Debug\PolicyApp.Tests.csprojResolveAssembly
 C:\Work\Policies\PolicyApp.Tests\obj\Debug\PolicyApp.Tests.csproj.CoreCompileInputs.cache
 C:\Work\Policies\PolicyApp.Tests\obj\Debug\PolicyApp.Tests.dll
 C:\Work\Policies\PolicyApp.Tests\obj\Debug\PolicyApp.Tests.pdb
+C:\Work\Policies\PolicyApp.Tests\bin\Debug\System.Web.Http.Cors.dll
+C:\Work\Policies\PolicyApp.Tests\bin\Debug\System.Web.Cors.dll
+C:\Work\Policies\PolicyApp.Tests\bin\Debug\System.Web.Http.Cors.xml
