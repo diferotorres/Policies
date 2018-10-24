@@ -18,6 +18,20 @@ namespace PolicyApp.Store
 				dbConnection.Query<ClientPolicy>(sql, new { P_Id });
 			}
 		}
+		public void DeletePolicyFromClient(ClientPolicy clientPolicy)
+		{
+			const string sql = @"DELETE FROM dbo.TClientPolicy
+								WHERE P_Id=@P_ID AND C_Id = @C_ID";
+			var queryParams = new
+			{
+				clientPolicy.P_ID,
+				clientPolicy.C_ID
+			};
+			using (var dbConnection = DbFactory.Create())
+			{
+				dbConnection.Query<ClientPolicy>(sql, queryParams);
+			}
+		}
 		public ClientPolicy CreateClientPolicy(ClientPolicy clientPolicy)
 		{
 			const string sql = @"INSERT INTO dbo.TClientPolicy (P_ID,C_ID,PC_StartDate)

@@ -17,6 +17,10 @@ namespace PolicyApp.Repository
 		{
 			_clientPolicyStore.DeleteClientPolicy(P_Id);
 		}
+		public void DeletePolicyFromClient(ClientPolicy clientPolicy)
+		{
+			_clientPolicyStore.DeletePolicyFromClient(clientPolicy);
+		}
 		public ClientPolicy CreateClientPolicy(ClientPolicy clientPolicy)
 		{
 			var newClientPolicy = _clientPolicyStore.CreateClientPolicy(clientPolicy);
